@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="image" id="home">
+        <h1>Welcome to Our Website</h1>
+        <p>Creating beautiful web experiences</p>
+        <a href="#about" class="btn">Learn More</a>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers and designers committed to creating beautiful web experiences.</p>
+        </section>
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>Building responsive and functional websites.</p>
+            </div>
+            <div class="service-item">
+                <h3>Graphic Design</h3>
+                <p>Creating stunning visuals for your brand.</p>
+            </div>
+            <div class="service-item">
+                <h3>SEO Optimization</h3>
+                <p>Improving your website's visibility on search engines.</p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Prodigy InfoTech. All Rights Reserved.</p>
+    </footer>
+    <script src="task1.js"></script>
+</body>
+</html>
+
